@@ -28,11 +28,24 @@ const anotherBigNumber = 34567827364654748595955279n // by placing n it has beco
 
 // null ka type object hota ha 
 
+
 // 2nd non-premitive + reference types 
+// original value milti ha copy nahi milti
 // all non-premitive dataTypes has type objects 
 // only type of function is known as function object 
 // Arrays, Objects, Functions
 
+let heroes = ['wasam', 'ali']
+
+let hero = {
+    height : '10cm',
+    color : "brown"
+}
+
+let action = function(){
+    console.log('dancing');
+
+}
 
 
 
