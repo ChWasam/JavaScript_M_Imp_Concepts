@@ -41,7 +41,7 @@ const max = 20;
 
 console.log(Math.round((Math.random())*(max-min+1)) + min);// imp formula 
 
-// keepmthis formula in mind 
+// keep this formula in mind 
 
 
 

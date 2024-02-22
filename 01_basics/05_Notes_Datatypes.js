@@ -1,6 +1,7 @@
 //  data types 
 
 // two types 
+
 // premitive
 // non primitive 
 
@@ -21,7 +22,7 @@
 const id = Symbol("123")
 const anotherId = Symbol('123')
 
-console.log(id == anotherId);
+console.log(id === anotherId); // false
 
 const bigNumber = 34567827364654748595955279 // zyada bara number ban gya ha 
 const anotherBigNumber = 34567827364654748595955279n // by placing n it has become BigInt
@@ -31,7 +32,7 @@ const anotherBigNumber = 34567827364654748595955279n // by placing n it has beco
 
 // 2nd non-premitive + reference types 
 // original value milti ha copy nahi milti
-// all non-premitive dataTypes has type objects 
+// all non-premitive dataTypes has type objects  
 // only type of function is known as function object 
 // Arrays, Objects, Functions
 

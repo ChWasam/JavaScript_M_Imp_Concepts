@@ -1,6 +1,6 @@
 // array is an object 
 
-// Arrat copy operations create shallow copies ==>> IMP 
+// Array copy operations create shallow copies ==>> IMP 
 
 // shallow copy == jo change karain ga original array me bhi change ho ga=> same reference point 
 
@@ -25,7 +25,7 @@ let myArr = [9,8,7,6,5,4];
 // lakin optimization bad me ati ha pehla code chaln ato chahia 
 
 // push pop shift unshift 
-// indexof (agar mojof nahi ha to -1 ai ga )
+// indexof (agar mojod nahi ha to -1 return ai ga )
 
 // join
 
@@ -43,6 +43,8 @@ const newArr = myArr.join();
 // console.log("C",myArr);// C [ 9, 5, 4 ]
 // console.log(mNA2); // [ 8, 7, 6 ]
 
+
+//
 // question methods 
 // include 
 
@@ -55,9 +57,9 @@ const newArr = myArr.join();
 const my_friends = ['sardar', 'ahsan','fakher'];
 const ali_friends = ['basit', 'zubair', 'saad'];
 
-//my_friends.push(ali_friends);// push update existing array
+my_friends.push(ali_friends);// push update existing array
 
-//console.log(my_friends); // [ 'sardar', 'ahsan', 'fakher', [ 'basit', 'zubair', 'saad' ] ]
+// console.log(my_friends); // [ 'sardar', 'ahsan', 'fakher', [ 'basit', 'zubair', 'saad' ] ]
 
 //  array within a array 
 

@@ -10,12 +10,12 @@ console.log(null >= 0);// true
 
 console.log(undefined == 0);// false 
 console.log(undefined > 0);// false 
-console.log(undefined < 0);//false
+console.log(undefined <= 0);//false
 
 // aupar wala sab code ko avoid hi karna chahia 
 
 // strict check === 
-// cleck value +datatype
+// check (value and  datatype) both
 
 // Note: we always do clean code isi ka sab sa zyada value ha 
 

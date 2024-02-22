@@ -14,7 +14,7 @@ myNewYoutubeName = "Chwasam"
 
 //check
 
-console.log(myYoutubename); // wasamCh
+console.log(myYoutubename); // WasamCh
 console.log(myNewYoutubeName);// Chwasam
 
 // here in stack only we get copy that's why no change in actual value 
@@ -31,13 +31,9 @@ let userTwo = userOne
 userTwo.name = "Ali"
 
 // check 
-// we will get change in user1.name 
+// we will get change in userOne.name 
 
 console.log(userOne.name); // Ali
 console.log(userTwo.name); // Ali
 // we will get same result 
 // here in heap  we get actual reference that's why  change in actual value 
-
-
-
-

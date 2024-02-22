@@ -4,18 +4,23 @@ let score =NaN
 
 
 let valueInNumber=Number(score) // ab value number me convert ho gae ha 
-// console.log(valueInNumber); // here NaN if score ="33abc"
-  // here 0 if score =null 
- // here NaN if score =undefined 
- // here 1 if score =true 
- // here 0 if score =true 
- // here NaN if score =NaN
- // type of NaN is also a number 
+// console.log(valueInNumber);
 
- let isLogedIn = 1 // true 
+// Result
+// here NaN if score =NaN
+// here NaN if score ="33abc"
+// here 0 if score =null 
+// here NaN if score =undefined 
+// here 1 if score =true 
+// here 0 if score =false 
+
+
+// type of NaN is also a number 
+
+ let isLogedIn = 1  
 
  let booleanIsLoggedIn = Boolean(isLogedIn)
-//  console.log(booleanIsLoggedIn);
+//  console.log(booleanIsLoggedIn); // true
 
  // 1=> true ; 0=> false 
  // "" => false 
@@ -25,17 +30,17 @@ let valueInNumber=Number(score) // ab value number me convert ho gae ha
 let someNumber = 33
 
 let stringNumber = String(someNumber);
-// console.log(typeof stringNumber);
+console.log(typeof stringNumber); // string
 
 
 // *****************************operations********************************************
 
 let value = 3
 let negValue = -value
-// console.log(negValue);
+// console.log(negValue); //-3
 
 // code should not look like messy 
-// write in pa+rentrhesis 
+// write in parentrhesis 
 // console.log( 3+((4*5)/2) );
 
 // console.log(+true); // 1
@@ -46,7 +51,7 @@ let negValue = -value
 
 let gameCounter = 100
 ++gameCounter
-console.log(gameCounter);
+// console.log(gameCounter);
 
 // prefix and postfix operators => read from mdn
 // typeconversion from tc39 website 
