@@ -51,7 +51,7 @@ let negValue = -value
 
 let gameCounter = 100
 ++gameCounter
-// console.log(gameCounter);
+// console.log(gameCounter);101
 
 // prefix and postfix operators => read from mdn
 // typeconversion from tc39 website 
