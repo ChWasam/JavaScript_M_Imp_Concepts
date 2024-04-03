@@ -22,7 +22,7 @@ let myArr = [9,8,7,6,5,4];
 // console.log(myArr.unshift(10));// yahan to 5 values han lakin agar
 //  lakhon me  values hoti to computer pa load ata 
 // wo is lia ku kah baqi sab aga shift hoti
-// lakin optimization bad me ati ha pehla code chaln ato chahia 
+// lakin optimization bad me ati ha pehla code chalna to chahia 
 
 // push pop shift unshift 
 // indexof (agar mojod nahi ha to -1 return ai ga )

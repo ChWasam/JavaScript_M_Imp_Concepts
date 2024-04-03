@@ -271,7 +271,7 @@ const myName = "Ch Wasam Ur Rehman Wasam ";
 // The lastIndexOf() methods searches backwards (from the end to the beginning),
 
 
-// Both methods accept a second parameter as the starting position for the search:
+// lastIndexOf() methods accept a second parameter as the starting position for the search:
 //  meaning: if the second parameter is 19, 
 //  the search starts at position 19, and searches to the beginning of the string.
 

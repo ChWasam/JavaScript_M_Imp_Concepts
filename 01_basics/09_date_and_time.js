@@ -30,7 +30,7 @@ let myDate = new Date ();
 // let myCreatedDate = new Date (2023,0,12);
 // console.log(myCreatedDate.toString()); // Thu Jan 12 2023 00:00:00 GMT+0500 (Pakistan Standard Time)
 
-// let myCreatedDate1 = new Date (2023,0,12, 5,50);
+// let myCreatedDate1 = new Date (2023,0,12, 5,50);     
 // console.log(myCreatedDate1.toString());  //Thu Jan 12 2023 05:50:00 GMT+0500 (Pakistan Standard Time)
 
 // let myCreatedDate2 = new Date ("2023-01-20");

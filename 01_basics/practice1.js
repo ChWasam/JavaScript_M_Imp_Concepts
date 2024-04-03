@@ -1,5 +1,6 @@
 // 1) Premitive datatype
 // call by value 
+// Deep copy
 // stack memory
 // matlab is me copy ati ha 
 // String,number,boolean,null,undefine,symbol,BigInt
@@ -7,7 +8,8 @@
 // ****************************************************************
 
 // 2) Non premitive datatype
-// call by Reference
+// call by Reference\
+//Shallow copy
 // heap memory
 // matlab value khud ati ha aus ke copy nahi ati 
 // array , object, function

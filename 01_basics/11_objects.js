@@ -51,7 +51,7 @@ let companyProfile2 = {
     
     }
 }
-
+console.log(companyProfile1.welcomeMessage1())
 
 
 
@@ -72,7 +72,7 @@ const extractValues = Object.values(companyProfile1);
 // console.log(extractValues);
 
 
-console.log(companyProfile1.hasOwnProperty("CEO1"));
+// console.log(companyProfile1.hasOwnProperty("CEO1"));
 // true
 
 
@@ -81,7 +81,7 @@ console.log(companyProfile1.hasOwnProperty("CEO1"));
 
 function destructuringArguments ( {CEO1}) {
 
-    console.log(CEO1);
+    // console.log(CEO1);
 }
 
 
