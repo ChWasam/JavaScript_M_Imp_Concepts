@@ -79,6 +79,9 @@
 
 // getResponse()
 
+
+
+
 // ************** fetch and then and catch  **********************************
 fetch('https://api.freeapi.app/api/v1/public/randomusers/user/random')
 .then((response)=>{
