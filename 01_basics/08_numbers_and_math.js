@@ -31,6 +31,7 @@ const hundreds = 100000000;
 // console.log(Math.random()); // always between 0 and 1
 
 // console.log(Math.round((Math.random())*10) + 1);
+// +1 ta kah zero na ai 
 
 
 // Imp formula 
